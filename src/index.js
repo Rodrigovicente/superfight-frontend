@@ -6,7 +6,7 @@ import socketIOClient from 'socket.io-client';
 //import 'bootstrap/scss/bootstrap.scss';
 import './index.scss';
 
-const ENDPOINT = "http://127.0.0.1:5000";
+const ENDPOINT = process.env.REACT_APP_SERVER_URL;
 
 // class Card {
 // 	constructor(text, isChar, actions) {
