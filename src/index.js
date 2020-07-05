@@ -6,7 +6,8 @@ import socketIOClient from 'socket.io-client';
 //import 'bootstrap/scss/bootstrap.scss';
 import './index.scss';
 
-const ENDPOINT = process.env.REACT_APP_SERVER_URL;
+// const ENDPOINT = process.env.REACT_APP_SERVER_URL;
+const ENDPOINT = "http://superfight-backend-superfight-backend.apps.us-west-1.starter.openshift-online.com/";
 
 // class Card {
 // 	constructor(text, isChar, actions) {
